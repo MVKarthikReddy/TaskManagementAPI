@@ -1,0 +1,147 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "TaskManagerAPI",
+    "dateExported": "2023-12-10T11:23:33.151Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "a0406c23-7f8b-4283-ab54-45f9aaa85e99",
+            "colId": "ede111e7-6b11-44d4-a1b6-3af109272b77",
+            "containerId": "",
+            "name": "User Registration",
+            "url": "http://localhost:8000/api/user/register/",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2023-10-07T11:44:30.966Z",
+            "modified": "2023-12-10T09:14:43.625Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"email\": \"modugulla@gmail.com\",\n  \"name\": \"bhargav\",\n  \"password\": \"12345\",\n  \"password2\": \"12345\",\n  \"tc\": \"True\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "cd97d010-6455-4466-a93f-161abd1002c6",
+            "colId": "ede111e7-6b11-44d4-a1b6-3af109272b77",
+            "containerId": "",
+            "name": "Login User",
+            "url": "http://localhost:8000/api/user/login/",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2023-10-07T14:38:13.914Z",
+            "modified": "2023-12-10T09:15:08.975Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"email\": \"modugulla@gmail.com\",\n  \"password\": \"12345\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "42f9141b-334e-409d-bb05-74db62fb3729",
+            "colId": "ede111e7-6b11-44d4-a1b6-3af109272b77",
+            "containerId": "",
+            "name": "User Profile",
+            "url": "http://localhost:8000/api/user/profile/",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2023-10-07T16:27:14.281Z",
+            "modified": "2023-12-10T09:15:54.519Z",
+            "headers": [],
+            "params": [],
+            "auth": {
+                "type": "bearer",
+                "bearer": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzAyMjAxNTA4LCJpYXQiOjE3MDIxOTk3MDgsImp0aSI6ImEzNzNiODcyZTA0NDQwMjBiMDk2YTE0OWEzYTRiZDk0IiwidXNlcl9pZCI6NX0.7WpxPPt3BU7gJYJveKi_GrpffVn_NkRG_XPxzZW3ABM"
+            },
+            "tests": []
+        },
+        {
+            "_id": "df6f8c35-91fa-4361-8477-16f1656b4c82",
+            "colId": "ede111e7-6b11-44d4-a1b6-3af109272b77",
+            "containerId": "",
+            "name": "Create Task",
+            "url": "http://localhost:8000/api/user/tasks/",
+            "method": "POST",
+            "sortNum": 40000,
+            "created": "2023-10-08T04:25:15.372Z",
+            "modified": "2023-12-10T10:33:32.587Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"title\":\"Guntur\",\n  \"description\": \"going to college tomorrow\",\n  \"due_date\": \"2023-01-23\",\n  \"completed\": \"False\"\n}",
+                "form": []
+            },
+            "auth": {
+                "type": "bearer",
+                "bearer": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzAyMjA2MTM4LCJpYXQiOjE3MDIyMDQzMzgsImp0aSI6Ijc1ZmJlMGI0NDNiYjQ4NWU4YWVmMmE3N2NjNjZhMmViIiwidXNlcl9pZCI6NX0.KTf5_FS7NO3MafcLIjOtdb4jGk36DxPDbzYtH_vTysk"
+            },
+            "tests": []
+        },
+        {
+            "_id": "6218a344-4c3a-43b1-a347-7d1ba9c63e22",
+            "colId": "ede111e7-6b11-44d4-a1b6-3af109272b77",
+            "containerId": "",
+            "name": "Retrieve Tasks",
+            "url": "http://localhost:8000/api/user/tasks/",
+            "method": "GET",
+            "sortNum": 50000,
+            "created": "2023-10-08T11:48:54.823Z",
+            "modified": "2023-12-10T11:03:23.635Z",
+            "headers": [],
+            "params": [],
+            "auth": {
+                "type": "bearer",
+                "bearer": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzAyMjA3OTU1LCJpYXQiOjE3MDIyMDYxNTUsImp0aSI6ImYwYzkwZmU4ZmNiYzQzNjU4YTk2OTgxNmE2NDNmYjI1IiwidXNlcl9pZCI6NX0.rzh3Ba0nV21M9RfsIEAWsEtfcINN55Mb24Fim4lCLRw"
+            },
+            "tests": []
+        },
+        {
+            "_id": "7039fe69-2685-441b-8a05-680877e49d24",
+            "colId": "ede111e7-6b11-44d4-a1b6-3af109272b77",
+            "containerId": "",
+            "name": "Update Task",
+            "url": "http://localhost:8000/api/user/tasks/Guntur",
+            "method": "PUT",
+            "sortNum": 60000,
+            "created": "2023-10-08T14:12:26.219Z",
+            "modified": "2023-12-10T11:02:49.916Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"title\": \"Guntur\",\n  \"description\": \"hello bitch \",\n  \"created_at\": \"2023-12-10T10:04:13.486728Z\",\n  \"due_date\": \"2023-01-23\",\n  \"completed\": false,\n  \"user\": 5\n}",
+                "form": []
+            },
+            "auth": {
+                "type": "bearer",
+                "bearer": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzAyMjA3OTU1LCJpYXQiOjE3MDIyMDYxNTUsImp0aSI6ImYwYzkwZmU4ZmNiYzQzNjU4YTk2OTgxNmE2NDNmYjI1IiwidXNlcl9pZCI6NX0.rzh3Ba0nV21M9RfsIEAWsEtfcINN55Mb24Fim4lCLRw"
+            },
+            "tests": []
+        },
+        {
+            "_id": "2eb58837-f53e-4c6b-ba6c-bf4bec6e15f7",
+            "colId": "ede111e7-6b11-44d4-a1b6-3af109272b77",
+            "containerId": "",
+            "name": "Delete Task",
+            "url": "http://localhost:8000/api/user/tasks/Guntur",
+            "method": "DELETE",
+            "sortNum": 70000,
+            "created": "2023-10-08T14:43:55.604Z",
+            "modified": "2023-12-10T10:32:38.698Z",
+            "headers": [],
+            "params": [],
+            "auth": {
+                "type": "bearer",
+                "bearer": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzAyMjA2MTM4LCJpYXQiOjE3MDIyMDQzMzgsImp0aSI6Ijc1ZmJlMGI0NDNiYjQ4NWU4YWVmMmE3N2NjNjZhMmViIiwidXNlcl9pZCI6NX0.KTf5_FS7NO3MafcLIjOtdb4jGk36DxPDbzYtH_vTysk"
+            },
+            "tests": []
+        }
+    ]
+}
