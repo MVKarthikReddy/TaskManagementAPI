@@ -1,0 +1,6 @@
+Django==3.1.2
+django-rest-framework==0.1.0
+djangorestframework==3.12.1
+djangorestframework-simplejwt
+drf-yasg
+virtualenv==20.0.33
