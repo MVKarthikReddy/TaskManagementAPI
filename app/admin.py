@@ -2,7 +2,7 @@ from django.contrib import admin
 from app.models import User,Task
 from django.contrib.auth.admin import UserAdmin as BaseUserAdmin
 
-
+#User Admin model
 class UserAdminModel(BaseUserAdmin):
 
     # The fields to be used in displaying the User Model model.

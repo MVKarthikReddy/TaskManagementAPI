@@ -1,7 +1,7 @@
 from rest_framework import renderers
 import json
 
-# To return errors in JSON format if any .
+# To return errors as result in JSON format if any .
 
 class UserRenderer(renderers.JSONRenderer):
     charset = 'utf-8'
