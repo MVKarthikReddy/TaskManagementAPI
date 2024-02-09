@@ -1,5 +1,7 @@
 from django.urls import path, include
-from app.views import UserRegistrationView,UserLoginView,UserProfileView,UserTaskView,UserTasksView
+from app.views import UserRegistrationView,UserLoginView,UserProfileView,UserTaskView
+from app.views import UserTasksView
+
 
 
 urlpatterns = [
