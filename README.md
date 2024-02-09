@@ -3,7 +3,7 @@
 
 # Description
 
-It is a the Task Manager API built using Django Rest Framework (DRF) with JWT (JSON Web Token) authentication. This API allows users to manage tasks, create, update, delete, and list tasks in a secure and efficient manner. Developed in windows environment and sqlite database is used.
+It is a the Task Manager API built using Django Rest Framework (DRF) along with JWT (JSON Web Token) authentication. This API allows users to manage tasks, create, update, delete, and list tasks in a secure and efficient manner. Developed in windows environment and sqlite database is used.
 
 
 ## End Points
