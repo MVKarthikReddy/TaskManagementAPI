@@ -21,7 +21,7 @@ from rest_framework import permissions
 from drf_yasg.views import get_schema_view
 from drf_yasg import openapi
 
-from app.views import (UserRegistrationView,UserProfileView,UserTasksView,UserTaskView)
+from app.views import (UserLoginView,UserRegistrationView,UserProfileView,UserTasksView,UserTaskView)
 
 schema_view = get_schema_view(
     openapi.Info(
